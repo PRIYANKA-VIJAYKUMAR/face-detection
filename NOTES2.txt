@@ -1,0 +1,28 @@
+face detection 
+  *haar feature(rectangular configuration)
+  *integral(inorder to compute fast) (160000+ feature)
+  *adaboost(reduce the feature nearly 2500 by weak and strong classifier)
+  *cascading(focus to remove non faces )
+  FINDS THE FACES NOW
+
+
+
+feature extraction 
+    *HOG(Histogram-Oriented Gradient)
+
+training 
+     *SVM(support vector machines)
+
+face regonisition 
+     *AT&T dataset of faces
+     * Yale B Dataset(39/40 faces were successfully recognized which results in an accuracy of 97.5%,)
+
+
+we excepting of methodology overcome prediciton is 90%  
+
+
+
+
+note:a global approach to feature extraction, which is that a model trained using a feature vector of the entire face instead of its geometrical components
+makes it less robust to angle and orientation changes. However, when the variation in facial orientation is not large, the
+global-approach is still very accurate and simpler to implement than component-based approaches.
